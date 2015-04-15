@@ -1,0 +1,28 @@
+body {
+    background: #fbffcc;
+}
+table{
+    margin: auto;
+    border-radius: 5px 5px;
+    box-shadow: 5px 5px 5px #000;
+}
+th {
+    font-size: 13px;
+    font-weight: normal;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+    padding: 8px;
+    text-shadow: 5px 5px 5px #fff;
+}
+td {
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 8px;
+}
+tr:hover td {
+    background: #ccddff; 
+}
