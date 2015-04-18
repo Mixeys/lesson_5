@@ -26,3 +26,59 @@ td {
 tr:hover td {
     background: #ccddff; 
 }
+.text_fild {
+    display: block;
+    margin: 0 6px;
+    padding: 4px;
+    width: 250px;
+    border: 3px solid #AEFF7B;
+    border-radius: 6px;
+    color: #6C6C6C;
+    transition: all 0.4s ease-out;
+}
+.text_fild:hover{
+    outline: none;
+    border-color: #7AE239
+}
+
+
+.btn {
+  display: inline-block;
+	margin: 0 6px;
+  padding: 5px 15px;
+	outline: none;
+	background: #EFF2EB; 
+	cursor: pointer;
+	border: 21px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+  transition: all 0.2s ease-out;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+textarea{
+  background: #EFF2EB;
+  border: 21px;
+  border-radius: 5px;
+  text-align: left;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.btn:hover{
+    background: #C7FE0A;
+}
+.btn:active{
+    position: relative;
+	top: 1px;
+}
+
+#formBanner {
+    padding: 0 0 0 150px;
+}
+#form_search{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+

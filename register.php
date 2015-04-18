@@ -37,14 +37,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Регистрация</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<form method="POST">
 	Логин:<br>
-	<input name="login" type="text"><br>
+	<input name="login" type="text" class="text_fild"><br>
 	Пароль:<br>
-	<input name="password" type="password"><br>
-	<input name="submit" type="submit" value="Зарегистрироваться">
+	<input name="password" type="password" class="text_fild"><br>
+	<input name="submit" type="submit" value="Зарегистрироваться" class="btn">
 </form>
 </body>
 </html>

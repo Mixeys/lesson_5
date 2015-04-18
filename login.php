@@ -28,14 +28,15 @@ if(!empty($_POST)){
 <head>
 	<meta charset="UTF-8">
 	<title>Авторизация</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<form method="POST">
 	Логин:<br>
-	<input name="login" type="text"><br>
+	<input name="login" type="text" class="text_fild"><br>
 	Пароль:<br>
-	<input name="password" type="password"><br>
-	<input name="submit" type="submit" value="Войти">
+	<input name="password" type="password" class="text_fild"><br>
+	<input name="submit" type="submit" value="Войти" class="btn">
 	<a href="register.php">Регистрация</a>
 </form>
 </body>

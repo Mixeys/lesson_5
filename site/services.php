@@ -31,7 +31,7 @@
         </iframe>
 -->
         <section id="column-content">
-            <h3 class="title">Home</h3>
+            <h3 class="title">Services</h3>
             <p>Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
             <div class="wraper clearfix">
                 <div class="column">
@@ -39,18 +39,8 @@
                     <h4>Column title</h4>
                     <p>Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
                 </div><!-- end column -->
-                <div class="column">
-                    <img src="images/Layer-2.png" alt="dog">
-                    <h4>Column title</h4>
-                    <p>Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                </div><!-- end column -->
-                <div class="column">
-                    <img src="images/Layer-3.png" alt="dog">
-                    <h4>Column title</h4>
-                    <p>Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                </div><!-- end column -->
                 <div class="banner" style="float:right; width: 300px; height: 500px;border: 1px solid white">
-                	<?php echo file_get_contents("http://localhost/table/get_banner.php?page=index&user=1");?>
+                	<?php echo file_get_contents("http://localhost/table/get_banner.php?page=index&user=7");?>
                 </div>
             </div>
         </section><!-- end column-content -->

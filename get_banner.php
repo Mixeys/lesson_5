@@ -6,12 +6,15 @@ $pageEscaped = $mysqli->real_escape_string($page);
 
 
 // todo: dates, on_off = On
+$now = date('Y-m-d H:i:s');
 $sql = "
 	SELECT * FROM `baneer` 
 	WHERE 
 		page = '$pageEscaped' 
 		AND user_id = $user
 		AND on_off = 'On'
+		AND dt_start < '$now'
+		AND dt_end > '$now'
 ";
 
 $result = $mysqli->query($sql);
